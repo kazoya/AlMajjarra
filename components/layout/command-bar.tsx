@@ -27,7 +27,7 @@ export function CommandBar({ onOpenMenu }: { onOpenMenu: () => void }) {
           </div>
         </div>
         <div className="flex items-center gap-2 sm:gap-3">
-          <DeveloperQr />
+          <DeveloperQr compact />
           <DemoBadge label="Demo Environment" className="hidden md:inline-flex" />
           <Button asChild size="sm" variant="outline" className="hidden cursor-pointer sm:inline-flex">
             <Link href="/assessment">ساعدنا على الفهم</Link>
